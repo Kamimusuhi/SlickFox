@@ -19,5 +19,3 @@ Enhance your Firefox experience with SlickFox, a custom interface for efficiency
     <td><img src="https://github.com/Kamimusuhi/SlickFox/assets/130303898/d839d68d-7027-42dd-90d2-fc31c64270d4" alt="Hover/Focus State" width="400"/><br><em>Interface hovered/focused.</em></td>
   </tr>
 </table>
-
-If you encounter any issues or have questions, please feel free to reach out. Happy browsing!
