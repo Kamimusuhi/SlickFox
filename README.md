@@ -1,15 +1,15 @@
-# SlickFox - Personalized Firefox Configuration
+# SlickFox - Personalized Firefox Stylesheet
 
-Enhance your Firefox experience with SlickFox, a custom interface for efficiency and style.
+Enhance your Firefox experience with SlickFox, a custom stylesheet for efficiency and style.
 
-## How to Apply SlickFox Configuration
+## How to Apply SlickFox Stylesheet
 
 1. **Open `about:profiles`** in Firefox.
 2. **Access the profile's root directory.**
 3. **Create a folder named "chrome" if absent.**
-4. **Download `userchrome.css` from this repo.**
+4. **Copy the `userchrome.css` file inside the "chrome" folder.**
 5. **Open `about:config`** and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
-6. **Restart Firefox normally** via `about:profiles`.
+6. **Restart Firefox normally.**
 
 ## Preview Images
 
