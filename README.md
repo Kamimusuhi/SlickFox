@@ -9,7 +9,7 @@ Follow these simple steps to apply the configuration to your Firefox browser:
 1. Type `about:profiles` into your Firefox address bar and go to the page.
 2. In the profile you're using, find and open the root directory folder specified on the page.
 3. Inside the root directory, create a new folder named "chrome" (if it doesn't already exist).
-4. Download the `userchrome.css` file from this repository and place it inside the "chrome" folder you just created.
+4. Download the `userchrome.css` file from this repository and place it inside the "chrome" folder.
 5. Type `about:config` into your Firefox address bar and go to the page.
    - Paste `toolkit.legacyUserProfileCustomizations.stylesheets` into the search bar.
    - Set the value to `true` to enable custom stylesheets support.
