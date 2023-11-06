@@ -1,44 +1,48 @@
 /* Hide unwanted buttons and elements */
-#library-button, #statuspanel,
-#reload-button, #stop-button,
 #back-button, #forward-button,
-#home-button, #library-button,
 #pocket-button, #scrollbutton-down,
 #scrollbutton-up, #PanelUI-menu-button,
 .titlebar-buttonbox-container, .tab-close-button,
+#reload-button, #stop-button, #tabs-newtab-button,
 .tab-secondary-label, #tabrowser-tabs .tab-context-line,
+#home-button, #library-button, #picture-in-picture-toggle,
 .tab-icon-stack:not([pinned]), #urlbar-search-mode-indicator,
-#urlbar-zoom-button, #alltabs-button { display: none !important; }
+#customizableui-special-spring1, #customizableui-special-spring2,
+#library-button, #statuspanel, #identity-box, #tracking-protection-icon-container
+#urlbar-zoom-button, #alltabs-button, .titlebar-spacer, #star-button-box { display: none !important; }
 
-#titlebar { --tab-min-height: 24px !important; }
-#urlbar-container { padding: 0 10px !important; }
 #navigator-toolbox-background { height: 0 !important; }
 #navigator-toolbox { z-index: 1; border-bottom: none !important; }
 .tabbrowser-tab[fadein] { max-width: 100vw !important; border: none }
 
-#navigator-toolbox:not(:hover) {
-  opacity: 0 !important;
-  height: 16px;
-  transition: height 200ms ease-in-out, opacity 175ms ease-in-out;
+#titlebar {
+	--proton-tab-block-margin: 0px !important;
+	--tab-block-margin: 0px !important;
+    --tab-min-height: 16px !important;
 }
 
-#navigator-toolbox:hover,
-#navigator-toolbox:focus-within,
-toolbarbutton[open="true"] {
-  height: 64px;
-  opacity: 1 !important;
-  transition: opacity 175ms ease-in-out;
-}
-
-#TabsToolbar {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  font-size: 12px !important;
-  opacity: 1 !important;
-  background-color: #2B2B32 !important;
+#TabsToolbar, .tabbrowser-tab {
+	max-height: 16px !important;
+	font-size: 11px !important;
+    background-color: #0c0c0e !important;
 }
 
 .tab-background[selected="true"] {
-  background: linear-gradient(180deg, rgba(43,43,50,1) 74%, rgba(180, 190, 254,1) 90%);
+    background-color: #242430 !important;
+  }
+
+#browser {
+    margin-top: 13px !important;
+  }
+
+#nav-bar {
+  opacity: 0 !important;
+  transition: height 200ms ease-in-out, opacity 175ms ease-in-out;
+}
+
+#nav-bar:hover,
+#nav-bar:focus-within {
+  height: 24px;
+  opacity: 1 !important;
+  transition: opacity 175ms ease-in-out;
 }
