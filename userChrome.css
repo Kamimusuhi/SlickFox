@@ -1,14 +1,12 @@
 /* Hide unwanted elements */
-#back-button, #forward-button, #pocket-button,
-#scrollbutton-down, #scrollbutton-up, #PanelUI-menu-button,
-.titlebar-buttonbox-container, .tab-close-button,
-#reload-button, #stop-button, #tabs-newtab-button,
-.tab-secondary-label, #tabrowser-tabs .tab-context-line,
-.tab-icon-stack:not([pinned]), #urlbar-search-mode-indicator,
-#home-button, #library-button, #urlbar-go-button, .urlbarView,
-#customizableui-special-spring1, #customizableui-special-spring2,
-#library-button, #statuspanel, #identity-box,
-#tracking-protection-icon-container, #urlbar-zoom-button,
+#back-button, #forward-button, #scrollbutton-down, #scrollbutton-up,
+#PanelUI-menu-button, .titlebar-buttonbox-container, .tab-close-button,
+#reload-button, #stop-button, #tabs-newtab-button, .tab-secondary-label,
+#tabrowser-tabs .tab-context-line, .tab-icon-stack:not([pinned]),
+#urlbar-search-mode-indicator, #home-button, #library-button,
+#urlbar-go-button, .urlbarView, #customizableui-special-spring1,
+#customizableui-special-spring2, #library-button, #statuspanel,
+#identity-box, #tracking-protection-icon-container, #urlbar-zoom-button,
 #alltabs-button, .titlebar-spacer, #star-button-box {
   display: none !important;
 }
