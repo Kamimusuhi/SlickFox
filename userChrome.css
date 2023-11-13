@@ -27,14 +27,14 @@
 }
 
 #titlebar {
-	--proton-tab-block-margin: 0px !important;
-	--tab-block-margin: 0px !important;
+  --proton-tab-block-margin: 0px !important;
+  --tab-block-margin: 0px !important;
   --tab-min-height: 16px !important;
 }
 
 #TabsToolbar, .tabbrowser-tab{
-	max-height: 16px !important;
-	font-size: 11px !important;
+  max-height: 16px !important;
+  font-size: 11px !important;
   background-color: #1a1a24 !important;
   transition: max-height 500ms ease-in-out;
 }
