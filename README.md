@@ -7,7 +7,7 @@
 1. **Open Librewolf and navigate to `about:profiles`.**
 2. **Access the profile's root directory.**
 3. **Create a folder named "chrome" if absent.**
-4. **Copy the `userchrome.css` file inside the "chrome" folder.**
+4. **Copy the repo content inside the "chrome" folder.**
 5. **Open `about:preferences#librewolf` and tick the "Allow userChrome.css customization" checkbox.**
 6. **Restart Librewolf normally.**
 
