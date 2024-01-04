@@ -1,0 +1,38 @@
+@-moz-document domain("anontube.lvkaszus.pl"),
+               domain("inv.citw.lgbt"),
+               domain("inv.in.projectsegfau.lt"),
+               domain("inv.tux.pizza"),
+               domain("inv.us.projectsegfau.lt"),
+               domain("inv.zzls.xyz"),
+               domain("invidious.asir.dev"),
+               domain("invidious.drgns.space"),
+               domain("invidious.einfachzocken.eu"),
+               domain("invidious.fdn.fr"),
+               domain("invidious.io.lol"),
+               domain("invidious.lunar.icu"),
+               domain("invidious.nerdvpn.de"),
+               domain("invidious.no-logs.com"),
+               domain("invidious.perennialte.ch"),
+               domain("invidious.privacydev.net"),
+               domain("invidious.private.coffee"),
+               domain("invidious.projectsegfau.lt"),
+               domain("invidious.protokolla.fi"),
+               domain("invidious.slipfox.xyz"),
+               domain("iv.datura.network"),
+               domain("iv.ggtyler.dev"),
+               domain("iv.melmac.space"),
+               domain("iv.nboeck.de"),
+               domain("iv.winston.sh"),
+               domain("onion.tube"),
+               domain("vid.priv.au"),
+               domain("vid.puffyan.us"),
+               domain("yewtu.be"),
+               domain("yt.artemislena.eu"),
+               domain("yt.cdaut.de"),
+               domain("yt.drgnz.club"),
+               domain("yt.oelrichsgarcia.de") {
+    :root, body {
+        background-color: #0F0F12 !important;
+        color: #cdd6f4 !important;
+    } 
+}

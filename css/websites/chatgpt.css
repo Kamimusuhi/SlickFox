@@ -1,0 +1,86 @@
+@-moz-document domain("chat.openai.com") {
+    /* Color Variables */
+    :root {
+      --ctp-text: #FFFFFF;
+      --ctp-bg1: #0F0F12;
+      --ctp-bg2: #1A1A1D;
+      --accent-color: #cdd6f4;
+    }
+
+
+    /* Main page */
+    div[class*="bg-gray-"]:not(
+      [class*="bg-gray-900"],
+      [class*="bg-gray-700"],
+      .bg-black .bg-gray-800,
+      [class*="bg-gray-600/70"],
+      [id^="headlessui-menu-items-"],
+      [class*=":radix-highlighted:hover:bg-[#2E2F33]"] 
+    ),
+    div[class*="bg-vert-dark-gradient"] {
+      background: #0F0F12 !important;
+  }
+  
+    /* Color Customization */
+    body, html {
+      background: var(--ctp-bg1) !important;
+      color: var(--ctp-text);
+    }
+
+    /* Send button */
+    [data-testid="send-button"][class*="bg-gray-900"] {
+      background-color: #0F0F12 !important;
+      border-color: #cdd6f4 !important;
+      svg[class*="text-white"] {
+        color: #cdd6f4 !important;
+      }
+    }
+
+    .bg-black.overflow-x-hidden.flex-shrink-0.dark{
+      background-color: #0F0F12 !important;
+    }
+
+    /* Buttons */
+    .btn-neutral,
+    .btn-dark {
+      background-color: var(--ctp-bg1) !important;
+      color: var(--ctp-text) !important;
+      border-color: var(--ctp-bg2);
+    }
+  
+    .btn-primary {
+      background-color: var(--accent-color) !important;
+      color: var(--ctp-bg2) !important;
+    }
+  
+    .btn-primary .text-white {
+      color: var(--ctp-bg2) !important;
+    }
+  
+    .btn-danger {
+      background-color: var(--ctp-bg2) !important;
+      color: var(--ctp-text) !important;
+    }
+  
+    .btn-disabled,
+    .btn-disabled:hover {
+      background-color: var(--ctp-bg1);
+      color: var(--ctp-text);
+    }
+  
+    /* Toggle button */
+    .radix-state-checked\:bg-green-600 {
+      &[data-state="checked"] {
+        background-color: var(--accent-color);
+        & > span {
+          background-color: var(--ctp-bg2);
+        }
+      }
+      &[data-state="unchecked"] {
+        background-color: var(--ctp-bg2);
+        & > span {
+          background-color: var(--ctp-text);
+        }
+      }
+    }
+}

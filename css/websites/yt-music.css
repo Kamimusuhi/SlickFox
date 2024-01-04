@@ -1,0 +1,51 @@
+@-moz-document domain("music.youtube.com") {
+    ytmusic-browse-response[has-background]:not([disable-gradient]) .background-gradient.ytmusic-browse-response, 
+    body, 
+    #nav-bar-background.ytmusic-app-layout, 
+    ytmusic-player-bar {
+        background-image: none !important;
+        background-color: #0F0F12 !important;
+    }
+    ytmusic-immersive-header-renderer,.immersive-background, 
+    ytmusic-detail-header-renderer.ytmusic-editable-playlist-detail-header-renderer, 
+    #header.ytmusic-browse-response, ytmusic-detail-header-renderer,
+    .content.ytmusic-player-page {
+        background-color: #0F0F12 !important;
+    }
+    #container.ytmusic-multi-select-menu-renderer, 
+    ytmusic-multi-select-menu-renderer, tp-yt-paper-dropdown,
+    #contentWrapper.tp-yt-iron-dropdown, .toast-button.yt-notification-action-renderer,
+    #items.ytmusic-multi-select-menu-renderer,
+    ytmusic-search-box.ytmusic-nav-bar[opened],
+    #suggestion-list, .search-box, .ytmusic-menu-popup-renderer,
+    ytmusic-search-suggestions-section, ytd-multi-page-menu-renderer,
+    ytmusic-search-suggestion {
+        background: #222322 !important;
+        border: none !important;
+    }
+    #primaryProgress.tp-yt-paper-progress {
+        background: #FFF !important;
+    }
+    #progress-bar.ytmusic-player-bar {
+        --paper-slider-active-color: #FFF !important;
+        --paper-slider-knob-color: #FFF !important;
+    }
+    ytmusic-chip-cloud-chip-renderer[enable-bauhaus-style][chip-style="STYLE_UNKNOWN"] a.ytmusic-chip-cloud-chip-renderer, 
+    ytmusic-chip-cloud-chip-renderer[enable-bauhaus-style][chip-style="STYLE_DEFAULT"] a.ytmusic-chip-cloud-chip-renderer,
+    tp-yt-paper-item.ytmusic-guide-entry-renderer, 
+    .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal,
+    ytmusic-chip-cloud-chip-renderer[enable-bauhaus-style][chip-style="STYLE_LARGE_TRANSLUCENT_AND_SELECTED_WHITE"] a.ytmusic-chip-cloud-chip-renderer {
+        transition: background-color cubic-bezier(0.045, 0.045, 0.755, 1) 200ms;
+    }
+    #player-bar-background.ytmusic-app-layout, 
+    .ytmusic-guide-renderer, 
+    ytmusic-guide-renderer, 
+    ytmusic-app[is-bauhaus-sidenav-enabled] #guide-content.ytmusic-app, .left-content {
+        background: #0F0F12 !important;
+    }
+    yt-page-navigation-progress.ytmusic-app {
+        --yt-page-navigation-progress-color: #222322 !important;
+        --yt-page-navigation-container-color: #0F0F12 !important;
+    }
+
+}
